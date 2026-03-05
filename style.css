@@ -14,8 +14,10 @@ body {
 header {
     background: linear-gradient(135deg, #0077b6, #00b4d8);
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px;
     text-align: center;
+    background-image: url(banjir-1.webp);
+    background-size: cover;
 }
 header h1 {
     font-size: 36px;
@@ -24,8 +26,14 @@ header h1 {
 
 nav {
     background-color: #023e8a;
-    padding: 10px;
-    text-align: center;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 4%;
 }
 
 nav a {
@@ -34,6 +42,7 @@ nav a {
     font-size: large;
     margin: 0 15px;
     font-weight: bold;
+
 }
 
 nav a:hover {
