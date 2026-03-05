@@ -14,12 +14,17 @@ body {
 header {
     background: linear-gradient(135deg, #0077b6, #00b4d8);
     color: white;
-    padding: 40px 20px;
+    padding: 100px 20px;
     text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-pixabay-51951.jpg);
+    background-size: cover;
 }
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+}
+header p {
+    font-size: 20px;
 }
 
 nav {
@@ -31,7 +36,6 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: large;
     margin: 0 15px;
     font-weight: bold;
 }
@@ -41,9 +45,21 @@ nav a:hover {
 }
 
 section {
-    padding: 40px 20px;
+    padding: 80px ;
     max-width: 1000px;
     margin: auto;
+    background-color: #023e8a;
+    border-radius: 20px;
+    margin-top: 4%;
+    color: white;
+}
+section p {
+    margin-bottom: 5%;
+}
+
+section img {
+    width: 70%;
+    height: fit-content;
 }
 
 #pengertian {
@@ -107,3 +123,18 @@ footer {
 .btn:hover {
     background-color: #023e8a;
 }
+
+.pengertian {
+   
+}
+
+.bagaimana {
+
+
+.dampak {
+}
+
+.mengapa {
+}
+
+
