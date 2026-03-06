@@ -16,7 +16,7 @@ header {
     color: white;
     padding: 200px 20px ;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Images/63e31aab527df.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/63e31aab527df.jpg);
     background-size: cover;
     
 }
